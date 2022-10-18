@@ -2,9 +2,6 @@ import { OOP_Message } from "./oop_message";
 import * as readline from "readline-sync";
 
 export class OOP_Math {
-  // public testFunction(){
-
-  // }
   public CollateNumbers(numberCount: number) {
     let numberArray: number[] = [];
 
