@@ -11,7 +11,7 @@ export class OOP_Message {
   static readonly numberErrorMessage = "Sorry %s is not betwen 95 and 121"; //3
   static readonly displayAverage = "The average of %s is %s"; //4
 
-  public static DisplayMessage(messageIndex: number, number: number | null, numberArray: number[] | null) {
+  public static DisplayMessage(messageIndex: number, number?: number, numberArray?: number[]) {
     switch (messageIndex) {
       case 0:
         console.log(this.inputPrompt);

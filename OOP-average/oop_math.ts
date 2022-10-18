@@ -10,7 +10,7 @@ export class OOP_Math {
 
     for (let count = 1; count <= numberCount; count++) {
       //Prompt the user to input a number between 95 and 121
-      OOP_Message.DisplayMessage(0, null, null);
+      OOP_Message.DisplayMessage(0);
       try {
         let number = 0;
         var input = readline.question(); //Accept the input
@@ -21,7 +21,7 @@ export class OOP_Math {
           numberArray[count - 1] = number;
         } //if the number is not within the range, it should prompt the user that the number is not within the range
         else {
-          OOP_Message.DisplayMessage(3, number, null); //Print a message to the user
+          OOP_Message.DisplayMessage(3, number); //Print a message to the user
           count -= 1;
         }
       } catch (error) {
